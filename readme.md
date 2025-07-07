@@ -37,8 +37,16 @@ Professional control software for MakerBot Digitizer turntable running Horus 0.2
   - Automatic COM port detection
 
 ## Quick Start
-
+### Linux GUI
+```
+python3 horus_turntable_linux_gui.py
+```
 ### Linux Command Line
-```bash
+```
 python3 horus_turntable_gcode_linux_sender.py --interactive
+```
+### Windows Command Line
+```
+python horus_turntable_windows_complete_package.py
+```
 
